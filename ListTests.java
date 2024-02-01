@@ -19,7 +19,7 @@ public class ListTests {
         List<String> result = ListExamples.filter(list, sc);
 
         System.out.println(result.toArray()[1]);
-        assertEquals("A", result.toArray()[2]);
+        assertEquals(list.toArray()[2], result.toArray()[2]);
         assertArrayEquals(list.toArray(), result.toArray());
 
     }
