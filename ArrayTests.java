@@ -28,4 +28,11 @@ public class ArrayTests {
     int[] output1 = ArrayExamples.reversed(input1);
     assertArrayEquals(new int[] { 3, 2, 1 }, output1);
   }
+
+  @Test
+  public void testReversed2() {
+    int[] input1 = { 6, 7, 8, 10 };
+    int[] output1 = ArrayExamples.reversed(input1);
+    assertArrayEquals(new int[] { 10, 8, 7, 6 }, output1);
+  }
 }
